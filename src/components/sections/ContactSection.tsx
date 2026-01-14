@@ -9,20 +9,14 @@ const contactMethods = [
   {
     icon: Mail,
     label: "Email",
-    value: "hello@example.com",
-    href: "mailto:hello@example.com",
+    value: "deepakkhatri16d@gmail.com",
+    href: "mailto:deepakkhatri16d@gmail.com",
   },
   {
     icon: Phone,
     label: "WhatsApp",
-    value: "+1 (555) 123-4567",
-    href: "https://wa.me/15551234567",
-  },
-  {
-    icon: Calendar,
-    label: "Book a call",
-    value: "Schedule 30 min",
-    href: "https://cal.com",
+    value: "+91 8168261814",
+    href: "https://wa.me/918168261814",
   },
 ];
 
@@ -100,7 +94,7 @@ export function ContactSection() {
               </p>
             </div>
 
-            {/* Contact form */}
+            {/* Contact form
             <div>
               <h3 className="text-xl font-semibold mb-6">Or send a message</h3>
               <form onSubmit={handleSubmit} className="space-y-5">
@@ -154,7 +148,7 @@ export function ContactSection() {
                   )}
                 </Button>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
