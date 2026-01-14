@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+eimport { useState, useEffect } from "react";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -60,7 +60,7 @@ export function Header() {
             }}
             className="text-lg font-semibold tracking-tight text-foreground hover:text-primary transition-colors"
           >
-            voiceflow.ai
+            Deepak.ai
           </a>
 
           {/* Desktop Navigation */}
