@@ -39,7 +39,7 @@ export function VoiceAgentWidget({ isConnected = false }: VoiceAgentWidgetProps)
   return (
     <>
       {/* Floating button */}
-      <button
+      {/* <button
         onClick={handleToggle}
         className={`fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full shadow-lg transition-all duration-300 flex items-center justify-center ${
           isOpen
@@ -53,7 +53,7 @@ export function VoiceAgentWidget({ isConnected = false }: VoiceAgentWidgetProps)
         ) : (
           <MessageCircle className="h-6 w-6" />
         )}
-      </button>
+      </button> */}
 
       {/* Widget panel */}
       {isOpen && (
